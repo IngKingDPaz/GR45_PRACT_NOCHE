@@ -122,6 +122,7 @@ public class Errores_Condicionales {
                System.out.println("# "+contador); 
                contador+=1;
                 System.out.println(" UNAB "); 
+                System.out.println(" UNAB "); 
           
         }
         

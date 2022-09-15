@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS `paciente` (
 --
 ALTER TABLE `cita`
   ADD CONSTRAINT `FK_medico_cita` FOREIGN KEY (`Codigo_Medico`,`iden_medico`) REFERENCES `medico` (`Codigo_Medico`, `Identificacion`),
-  ADD CONSTRAINT `Fk_Paciente_cita` FOREIGN KEY (`Id_Paciente`) REFERENCES `paciente` (`Id`);
+  ADD CONSTRAINT `Fk_Paciente_cita` FOREIGN KEY (`Id_Paciente`) REFERENCES `paciente` (`Id`);;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
