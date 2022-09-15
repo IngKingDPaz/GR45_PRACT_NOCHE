@@ -18,3 +18,5 @@ try:
   x = int(input('Cantidad de Iteraciones '))
 except:
   print("Debe Ingresar valor numerico") 
+
+  print("hola git")
